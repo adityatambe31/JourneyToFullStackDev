@@ -37,14 +37,16 @@
 // counter--;
 // console.log(counter);
 
-let favActorFirstName = "Tony";
-let favActorLastName = " Stark";
-let fullName = favActorFirstName.concat(favActorLastName);
+//Convert String to number
+let money = 50;
+money = parseInt(money);
+money += money;
+money = Number(money);
+console.log(money);
+console.log(typeof money);
 
-console.log(fullName.toUpperCase());
-
-let message = `My fav actor is ${fullName} and he is in the avengers`;
-
-message += " his best sho is Silicon Valley";
-
-console.log(message);
+//Convert String to decimal
+money = 50.99;
+money = parseFloat(money);
+console.log(money);
+console.log(typeof money);
