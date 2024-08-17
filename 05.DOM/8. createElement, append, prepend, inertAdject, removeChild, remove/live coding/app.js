@@ -44,3 +44,26 @@ ul.appendChild(newLi);
 const firstLi = document.querySelector("li");
 //selector.insertBefore(asks what and where)
 ul.insertBefore(newLi, firstLi);
+
+// const firstP = document.querySelector("p");
+// const i = document.createElement("i");
+// console.log(i.innerText("it's Italic"));
+// console.log((i.style.color = "skyblue"));
+
+// console.log(firstP.insertAdjacentElement("beforebegin", i));
+// console.log(firstP.insertAdjacentElement("afterbegin", i));
+// console.log(firstP.insertAdjacentElement("afterend", i));
+
+let section = document.querySelector("section");
+const i = document.createElement("h4");
+i.innerText = "italic";
+i.style.color = "blue";
+
+section.append(i);
+span.prepend(i, span);
+
+let span = document.querySelector("span");
+span.innerText = "adi";
+span.style.color = "red";
+
+span.append(i, span);
