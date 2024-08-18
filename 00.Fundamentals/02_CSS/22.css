@@ -1,0 +1,32 @@
+html{
+    font-size: 25px;
+}
+.container{
+    font-size: 10px;
+    border: 2px solid red;
+    height: 300vh;
+    /* height: 300px; */
+    width: 400vw;
+    /* vw means view width and vh means view height the visible area of the browser */
+}
+
+h2{
+    text-align: center;
+}
+
+#first{
+    text-align: center;
+    /* font-size: 10em; */
+    /* this means that the font size will be 10 times the size of the parent container
+    10 * 10 = 100 */
+    /* padding: 3rem; */
+    /* padding came around by 30px */
+}
+
+#second{
+    text-align: center;
+    /* font-size: 3em; */
+    /* padding: 3rem; */
+
+    /* rem is used for relative font size which is set by the parent container */
+}

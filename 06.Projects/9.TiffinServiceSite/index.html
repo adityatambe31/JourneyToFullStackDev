@@ -1,0 +1,101 @@
+<!-- Today I am gonna create a webiste which is full responsive.
+without any js. this will be suitable for any screen so far used  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering Website | Myonlinemeal.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="./phone.css">
+</head>
+<body>
+    <nav id="navbar" >
+        <div id="logo">
+            <img src="./img/logo.png" alt="MyOnlineMeal.com">
+        </div>
+
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#home">About Us</a></li>
+            <li class="item"><a href="#services-container">Our Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to the Online Meal.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sapiente adipisci placeat eaque quas reprehenderit quisquam non quibusdam tempora assumenda! Rerum illo quas architecto iusto blanditiis assumenda magni enim a, corporis doloribus modi reprehenderit.</p>
+        <button class="btn">Order Now</button>
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="./img/Fresh.png" alt="">
+                <h2 class="h-secondary center">Freshly Cooked</h2>
+                <p class="center">Our chefs prepare each meal with care, using only the finest ingredients. You can count on fresh, flavorful dishes that will satisfy your guests.</p>
+            </div>
+            <div class="box">
+                <img src="./img/order.png" alt="">
+                <h2 class="h-secondary center">Fast Delivery</h2>
+                <p class="center">Need your order quickly? We offer fast, reliable delivery to ensure your food arrives hot and ready to serve. Streamline your event planning with our speedy service.</p>
+            </div>
+            <div class="box">
+                <img src="./img/bulk.png" alt="">
+                <h2 class="h-secondary center">Bulk Orders</h2>
+                <p class="center">Looking to feed a crowd? Our bulk orders have you covered with a variety of delicious options. Whether it's a party, gathering, or corporate event, we've got the quantity you need.</p>
+            </div>
+    </section>
+
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <a href="https://seneca.catertrax.com/"><img src="./img/client1.png" alt="Our Client"></a>
+            </div>
+
+            <div class="client-item">
+                <a href="https://tmucatering.catertrax.com/"><img src="./img/client2.png" alt="Our Client"></a>
+            </div>
+        </div>    
+    </section>
+    
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div class="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email" >Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+
+                <div class="form-group">
+                    <label for="number">Phn Number:</label>
+                    <input type="phone" name="number" id="number" placeholder="Enter your number">
+                </div>
+
+                <div class="form-group">
+                    <label for="message"></label>
+                    Message:<textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="centre">
+            Copyright &copy; www.MyOnlineMeal.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+</html>

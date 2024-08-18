@@ -1,0 +1,46 @@
+.container{
+    border: 2px solid red;
+    background-color: burlywood;
+    height: 3444px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 2px;
+    display: inline-block;
+}
+
+#box3{
+    /* position: relative; */
+    position: sticky;
+    right: 4px;
+    top: 3px;
+    /* top: 120px;
+    left: 120px; */
+}
+
+#box2{
+    position: relative;
+    left: 3px;
+    top: 3px;
+}
+
+
+/* position, absolute, static(default), relative, fixed, sticky */
+
+/* relative: it will be relative to its normal position
+   if you want gap then use the relative else use absolute.
+   absolute will move itself according to its parent*/
+
+/* we used fixed while making something fix for instance chat box in the website. for that we use this fix thing. position fix relative to its browser window.
+#box3{
+    /* position: relative;
+    position: fixed;
+    right: 4px;
+    bottom: 2px;
+     top: 120px;
+    left: 120px; 
+}*/
+
+/* we use the sticky while we want an menu in our website to be sticked till the bottom page */

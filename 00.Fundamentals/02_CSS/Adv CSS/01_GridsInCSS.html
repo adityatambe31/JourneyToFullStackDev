@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grids In CSS</title>
+    <style>
+        .container{
+            display: grid;
+            /* grid-template-columns: 300px 200px 100px; */
+            /* grid-template-columns: 400px 200px auto; */
+            grid-template-rows: 1fr 2fr 3fr;
+            grid-template-columns: repeat(14, 2fr);
+        }
+
+        .item{
+            /* height: 100px;
+            width:100px; */
+            margin: 2px;
+            background-color: royalblue;   
+            border: 2px solid black;    
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">this is Item1</div>
+        <div class="item">this is Item2</div>
+        <div class="item">this is Item3</div>
+        <div class="item">this is Item4</div>
+        <div class="item">this is Item5</div>
+        <div class="item">this is Item6</div>
+        <div class="item">this is Item1</div>
+        <div class="item">this is Item2</div>
+        <div class="item">this is Item3</div>
+        <div class="item">this is Item4</div>
+        <div class="item">this is Item5</div>
+        <div class="item">this is Item6</div>
+        <div class="item">this is Item7</div>
+    </div>
+    </body>
+</html>
+
+
+<!-- this helps in creating grids and layouts -->
+
+<!-- new units are fr -->

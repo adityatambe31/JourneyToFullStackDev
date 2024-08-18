@@ -1,0 +1,36 @@
+.blueElement{
+    color: blue;
+}
+
+.bgRed{
+    background-color: red;
+}
+
+.bgYellow{
+    background-color: yellow;
+}
+
+.redElement{
+    color: red;
+}
+
+.purpleElement{
+    color: purple;
+}
+
+.bgPink{
+    background-color: pink;
+}
+
+.greenElement{
+    
+    color: green;
+}
+
+.bgLevender{
+    background-color: lavender;
+}
+
+footer, span{
+    background-color: aquamarine;
+}

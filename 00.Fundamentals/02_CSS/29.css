@@ -1,0 +1,84 @@
+.container{
+    background-color: aquamarine;
+
+}
+
+.box{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation: adi; /*name declaration */
+    animation-duration: 7s; /*time duration*/
+    /* animation-iteration-count: infinite; /*iteration count*
+    animation-fill-mode: forwards;
+    animation-fill-mode: alternate;
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-out;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1ms; */
+    animation-direction: normal;
+    animation: adi 5s infinite alternate;
+    }
+
+/* standard way of animation */
+@keyframes Adi1 {
+        from{
+            width: 200px;
+    
+        }
+        to{
+            width: 700px;
+        }
+    }
+
+    /* dangling animation example */
+@keyframes Adi2 {
+        0%{
+            top:0px;
+            left: 0px;
+        }
+        50%{
+            top: 250px;
+            left: 0px;
+        }
+        75%{
+            top: 250px;
+            left: 250px;
+        }
+        100%{
+            top: 10px;
+            left: 250px;
+        }
+    }
+
+    @keyframes adi {
+
+        0%{
+            background-color: red;
+            top:0px;
+            left: 0px;
+
+        }
+        25%{
+            background-color: yellow;
+            top:0px;
+            left: 250px;
+        }
+        50%{
+            background-color: blue;
+            top:250px;
+            left: 250px;
+        }
+        75%{
+            background-color: green;
+            top:250px;
+            left: 0px;
+        }
+        100%{
+            background-color: red;
+            top:0px;
+            left: 0px;
+        }
+        
+    }

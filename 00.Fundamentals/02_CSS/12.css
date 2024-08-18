@@ -1,0 +1,15 @@
+#firstPara{
+    color: red; /* color by name */
+}
+
+#secondPara{
+    
+    color: rgb(7, 101, 106); /* color by rgb value */
+    /* color by rgb value */
+}
+
+#thirdPara{
+    color:black;
+    background-color: rgb(127, 212, 255);
+    
+}

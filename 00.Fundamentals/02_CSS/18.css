@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+  }
+  header {
+    border: 2px solid red;
+    width: 1200px;
+  }
+  img {
+    width: 100px;
+    margin: auto;
+    display: block;
+  }
+
+  h2 {
+    font-family: cursive;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .box {
+    border: 4px solid black;
+    background-color: burlywood;
+    margin: 0px;
+    margin-top: 20px;
+    padding: 10px;
+    display: inline-block;
+    width: 33%;
+    
+  }

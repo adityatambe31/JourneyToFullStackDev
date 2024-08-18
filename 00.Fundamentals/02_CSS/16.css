@@ -1,0 +1,40 @@
+*{
+    font-family: cursive;
+}
+.container{
+    border: 2px solid red;
+    background-color: rgb(157, 236, 210);
+    border-radius: 5px;
+    margin: 34px auto;
+    width: 800px;
+    padding: 34px;
+}
+
+.btn{
+    background-color: rgb(190, 132, 55);
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 3px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color:white;
+    
+}
+
+a:visited{
+    color: white;
+    background-color: grey;
+}
+
+.btn:hover{
+    color: white;
+    background-color: black;
+}

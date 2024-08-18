@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listener In JS</title>
+    <style>
+        .container{
+            background-color: #f4f4f4;
+            padding: 1rem;
+
+        }
+
+        #btn{
+            background-color: wheat;
+            padding: 1rem;
+            margin: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            border-color: 2px solid black
+        }
+
+        p, h1{
+            font-family: cursive;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+
+        <div class="container">
+            <h1>Event Listener In JS</h1>
+            <p id="para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni libero, voluptates aliquid voluptas eos obcaecati voluptatum exercitationem beatae eligendi eius saepe qui velit at quasi dicta quibusdam, error nulla consequatur assumenda ut facilis. Quae adipisci cupiditate molestias earum quod recusandae dolores, soluta fugiat? Quia.
+            </p>
+            <button id="btn" onclick="toggleHide()">Show/Hide</button>
+    </div>
+</div>
+</body>
+<script>
+    function toggleHide(){
+        let btn = document.getElementById('btn');
+        let para = document.getElementById('para');
+
+        if(para.style.display != 'none'){
+            para.style.display = 'none';
+        }
+        else{
+            para.style.display = 'block';
+        }
+    }
+</script>
+</html>

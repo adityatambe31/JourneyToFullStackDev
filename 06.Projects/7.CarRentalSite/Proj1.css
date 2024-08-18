@@ -1,0 +1,198 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url("https://images.squarespace-cdn.com/content/v1/60310ecc67c0d20c6f2042dd/1616056220956-EJTC5JIOYMOS0UBLQTXT/2021_Jag_EType_PurpleHaze_0169.JPG");
+    font-family: cursive;
+    font-weight: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ 
+.left{
+        /* border: 2px solid green; */
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 5px;
+}
+
+.left img{
+    width: 161px;
+    /* filter: invert(100%); */
+    margin: -24px 49px;
+    padding: 2px 49px;
+    display: block;
+}
+
+
+.mid{
+    /* border: 2px solid yellow; */
+    display: block;
+    width: 33%;
+    margin: 22px auto;
+    padding: auto;
+}
+
+.right{
+    /* border: 2px solid rgb(23, 147, 23); */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 22px;
+}
+
+.navbar{
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 23px;
+}
+
+.navbar li a{
+    color: rgb(152, 144, 144);
+    text-decoration: none;
+    padding: 24px 23px;
+   
+
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    transition: 5s ease-in-out;
+}
+
+.btn{
+    margin: 13px 9px;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    font-weight: 20px;
+}
+
+.container{
+    border: 2px solid rgb(128, 100, 0);
+    background-color: rgb(83, 77, 77);
+    margin: 106px 80px;
+    padding: 123px;
+    width: 33%;
+    border-radius: 28px;
+    display: block;
+    color: aliceblue;
+}
+
+.form-group input{
+    text-align: left;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    /* border: 2px solid black; */
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: cursive;
+}
+
+.form-group h1{
+    text-align: center;
+}
+
+.container .btn{
+    display: block;
+    margin: auto;
+    width: 80%;
+
+    background-color: rgb(45, 45, 45);
+    color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.about{
+    text-align: center;
+    color: aliceblue;
+    font-family: cursive;
+    font-weight: 20px;
+    font-size: 20px;
+    padding: 1px;
+    margin: 1px;
+    /* border: 4px solid grey; */
+    background-blend-mode: color;
+    border-radius: 10px;
+    transition: calc(5s ease-in-out);
+
+}
+
+.about h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: blanchedalmond;
+}
+
+.firstcar img{
+    display: block;
+    margin: auto;
+    width: 33%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.firstcar:hover{
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.firstcar p{
+    text-align: center;
+    font-family: cursive;
+    font-weight: 20px;
+    font-size: 20px;
+    padding: 1px;
+    margin: 1px;
+    color: beige;
+}
+.secondcar img{
+    display: block;
+    margin: auto;
+    width: 33%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.secondcar:hover{
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.secondcar p{
+    text-align: center;
+    font-family: cursive;
+    font-weight: 20px;
+    font-size: 20px;
+    padding: 1px;
+    margin: 1px;
+    color: beige;
+}
+

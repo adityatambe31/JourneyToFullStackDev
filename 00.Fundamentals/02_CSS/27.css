@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+}
+
+.card{
+    padding: 12px 23px;
+    /* border: 2px solid black; */
+    padding: 23px;
+    margin: 23px;
+    background-color: rgb(228, 197, 157);
+    /* box-shadow: 7px 5px 50px red;
+    box-shadow: -7px -5px -50px red; x y blur color */
+    /* we have offset: x y blur color */; 
+    border-radius: 10px;
+    /* box-shadow: 7px 5px 15px 5px red; */
+    box-shadow: 3px 2px  red, 12px 11px green;
+    /* giving multiple shadows */
+
+}
+
+.card h1{
+    text-shadow: 2px 7px 9px rgb(208, 68, 223);
+}
+
+.card p{
+    text-shadow: 2px 7px 9px rgb(207, 11, 228);
+}

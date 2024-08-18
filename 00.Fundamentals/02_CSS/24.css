@@ -1,0 +1,11 @@
+h1 {
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+div p {
+    color: rgb(0, 0, 128);
+    background-color: orange;
+    font-weight: bold;
+}

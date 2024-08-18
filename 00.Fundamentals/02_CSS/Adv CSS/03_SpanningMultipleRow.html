@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Row Spanning</title>
+    <style>
+
+        .container{
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            grid-gap: 1rem;
+        }
+        .box{
+            background-color: royalblue;
+            border: 2px solid black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .box:first-child{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 6;
+
+            /* shortcut for this is grid-column: 1 / 4; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">item1</div>
+        <div class="box">item2</div>
+        <div class="box">item3</div>
+        <div class="box">item4</div>
+        <div class="box">item5</div>
+        <div class="box">item6</div>
+        <div class="box">item7</div>
+        <div class="box">item8</div>
+        <div class="box">item8</div>
+        <div class="box">item8</div>
+        <div class="box">item8</div>
+        <div class="box">item8</div>
+        <div class="box">item8</div>
+        <div class="box">item8</div>
+    </div>
+</body>
+</html>
