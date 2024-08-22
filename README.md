@@ -35,7 +35,7 @@ I welcome any suggestions, feedback, or contributions to help improve my project
 
 ## 📧 Contact
 
-- **Email:** aditya.tambe.professional31@example.com
+- **Email:** aditya.tambe.professional31@gmail.com
 - **LinkedIn:** [Aditya Tambe](https://www.linkedin.com/in/adityatambee/)
 
 Thanks for visiting my repository! Let's code and grow together! 🌟
